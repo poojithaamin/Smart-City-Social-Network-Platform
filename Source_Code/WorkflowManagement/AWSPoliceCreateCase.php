@@ -15,7 +15,7 @@ $aVars = array(
    'variables' => $aCaseVars
 );
 $pmServer = "http://ec2-54-149-222-104.us-west-2.compute.amazonaws.com"; 
-$accessToken = "b03a6f58b28ac51c45cff29db90f51a7e1f9ae50";
+$accessToken = "";
 $ch = curl_init($pmServer . "/api/1.0/workflow/cases");
 curl_setopt($ch, CURLOPT_HTTPHEADER, array("Authorization: Bearer " . $accessToken));
 curl_setopt($ch, CURLOPT_POST, 1);
