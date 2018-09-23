@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.2.1-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1512498036</meta>
+    <meta key="export_datetime"><![CDATA[2017-12-05T13:20:36-05:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[172.31.21.69:80]]></meta>
+    <meta key="export_server_os">Linux</meta>
+    <meta key="export_server_php_version">50632</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">BroadcastMessage</meta>
+    <meta key="uid">4720919955a250edac11125072281465</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>3834452815a250f038850f4034264413</act_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <pro_uid>8851039295a250edac6b879099089215</pro_uid>
+        <act_name>Broadcast Message</act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>1</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>6533591565a250f03890301051694419</bou_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>3834452815a250f038850f4034264413</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>314</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>6533591565a250f03890301051694419</bou_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>3834452815a250f038850f4034264413</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>314</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>6705685095a250f038e13d7074611870</bou_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>2061723135a250f038dd3c2014700484</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>108</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>8348594285a250f03901680085512314</bou_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>1512106695a250f038fdd37065969382</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>551</bou_x>
+        <bou_y>108</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_name>BroadcastMessage</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>2061723135a250f038dd3c2014700484</evn_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <pro_uid>8851039295a250edac6b879099089215</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>6705685095a250f038e13d7074611870</bou_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>2061723135a250f038dd3c2014700484</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>135</bou_x>
+        <bou_y>108</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <evn_uid>1512106695a250f038fdd37065969382</evn_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <pro_uid>8851039295a250edac6b879099089215</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>8348594285a250f03901680085512314</bou_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <element_uid>1512106695a250f038fdd37065969382</element_uid>
+        <bou_element>1677384955a250edb8159a0018816830</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>551</bou_x>
+        <bou_y>108</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>3134977555a250f03935ae5054048886</flo_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>2061723135a250f038dd3c2014700484</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>3834452815a250f038850f4034264413</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>168</flo_x1>
+        <flo_y1>125</flo_y1>
+        <flo_x2>314</flo_x2>
+        <flo_y2>125</flo_y2>
+        <flo_state><![CDATA[[{"x":168,"y":125},{"x":314,"y":125}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>5713335155a250f03934ad0011274744</flo_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>3834452815a250f038850f4034264413</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>1512106695a250f038fdd37065969382</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>465</flo_x1>
+        <flo_y1>125</flo_y1>
+        <flo_x2>551</flo_x2>
+        <flo_y2>125</flo_y2>
+        <flo_state><![CDATA[[{"x":465,"y":125},{"x":551,"y":125}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY"/>
+    <table name="LANE"/>
+    <table name="LANESET"/>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>8851039295a250edac6b879099089215</pro_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <dia_uid>6750844065a250edac4bab1099815086</dia_uid>
+        <pro_name>BroadcastMessage</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <prj_name>BroadcastMessage</prj_name>
+        <prj_description></prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2017-12-04 04:01:14]]></prj_create_date>
+        <prj_update_date><![CDATA[2017-12-04 04:01:55]]></prj_update_date>
+        <prj_author>7625415175a1d2531132e95023391391</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <pro_title>BroadcastMessage</pro_title>
+        <pro_description></pro_description>
+        <pro_parent>4720919955a250edac11125072281465</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2017-12-04 04:01:55]]></pro_update_date>
+        <pro_create_date><![CDATA[2017-12-04 04:01:14]]></pro_create_date>
+        <pro_create_user>7625415175a1d2531132e95023391391</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <tas_uid>3834452815a250f038850f4034264413</tas_uid>
+        <tas_title>Broadcast Message</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>7625415175a1d2531132e95023391391</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>314</tas_posx>
+        <tas_posy>87</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>6743163345a250f039e42e5055041872</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <tas_uid>3834452815a250f038850f4034264413</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs"/>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>4310350305a250f5a30fd89036861921</dyn_uid>
+        <dyn_title>BroadCast Message Input</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[4720919955a250edac11125072281465/4310350305a250f5a30fd89036861921]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"BroadCast Message Input","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"4310350305a250f5a30fd89036861921","name":"BroadCast Message Input","description":"","mode":"edit","script":{"type":"js","code":"$('#4310350305a250f5a30fd89036861921').css(\"background-color\",'#c6e2ff')"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"title","id":"title0000000001","label":"Broadcast Message","colSpan":12}],[{"type":"text","variable":"Message","var_uid":"1613967745a251040bf16c5088074546","dataType":"string","protectedValue":false,"id":"Message","name":"Message","label":"Input Message","defaultValue":"","placeholder":"","hint":"","required":false,"textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"Message","colSpan":12}],[{"type":"submit","id":"submit0000000001","name":"submit0000000001","label":"SUBMIT","colSpan":12}]],"variables":[{"var_uid":"1613967745a251040bf16c5088074546","prj_uid":"4720919955a250edac11125072281465","var_name":"Message","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2017-12-05 06:55:09]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>3103759065a25107064f3a7015213432</step_uid>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <tas_uid>3834452815a250f038850f4034264413</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>4310350305a250f5a30fd89036861921</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>5218825365a250f144699a0068696351</tri_uid>
+        <tri_title>Broadcast Message</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>4720919955a250edac11125072281465</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$c = mysql_connect("ec2-54-191-21-155.us-west-2.compute.amazonaws.com", "root", "abcd", 3306);
+mysql_select_db("ossndb");
+$Message = @@Message;
+//$result = mysql_query("insert into Staff values(4,'$Message',4,'Police Department');");
+$result = mysql_query("insert into ossn_messages(message_from,message_to,message,viewed,time)
+select t1.message_from, t2.message_to, t1.message,t1.viewed, t1.time from
+(select 1 as message_from ,'$Message' as message ,0 as viewed ,1512370573 as time) t1
+CROSS JOIN (select guid as message_to from ossn_users where guid<>1) t2;");
+$row = mysql_fetch_assoc($result);
+echo htmlentities($row['_message']);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers"/>
+    <table name="groupwfs"/>
+    <table name="steptriggers">
+      <record>
+        <step_uid>-2</step_uid>
+        <tas_uid>3834452815a250f038850f4034264413</tas_uid>
+        <tri_uid>5218825365a250f144699a0068696351</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker"/>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>1613967745a251040bf16c5088074546</var_uid>
+        <prj_uid>4720919955a250edac11125072281465</prj_uid>
+        <var_name>Message</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent"/>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>BroadCast Message Input</file_name>
+      <file_path><![CDATA[4720919955a250edac11125072281465/4310350305a250f5a30fd89036861921.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9IjQ3MjA5MTk5NTVhMjUwZWRhYzExMTI1MDcyMjgxNDY1LzQzMTAzNTAzMDVhMjUwZjVhMzBmZDg5MDM2ODYxOTIxIiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
