@@ -10,12 +10,12 @@ $aCaseVars = array(array(
    "RerouteDepartment" => "None")                       
 );
 $aVars = array(
-   'pro_uid'   => '4654954805a1c96c6b3ecc2031543887',
-   'tas_uid'   => '7368398085a1c96efc4a756074548681',
+   'pro_uid'   => '',
+   'tas_uid'   => '',
    'variables' => $aCaseVars
 );
 $pmServer = "http://ec2-54-186-44-218.us-west-2.compute.amazonaws.com"; 
-$accessToken = "4d06f2768cc393f9bfc0f83a5ec7752f182710ca";
+$accessToken = "";
 $ch = curl_init($pmServer . "/api/1.0/workflow/cases");
 curl_setopt($ch, CURLOPT_HTTPHEADER, array("Authorization: Bearer " . $accessToken));
 curl_setopt($ch, CURLOPT_POST, 1);
